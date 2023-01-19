@@ -17,12 +17,13 @@ services:
     image: diouxx/glpi
     container_name : glpi
     hostname: glpi
-    ports:
-      - "8200:80"
-    volumes:
-      - ./glpi/:/var/www/html/glpi
     environment:
-      - TIMEZONE=Europe/Madrid
+      - version=10.0.4
+    ports:
+      - "8000:80"
+    volumes:
+
+      - ./glpi/:/var/www/html/glpi
     restart: unless-stopped
     
     
