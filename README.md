@@ -7,7 +7,7 @@
 host: mysql,
 usuario: glpi,
 contraseña: glpi
-
+### 
 Los usuarios / contraseñas predeterminadas son:
 root/root contraseña israel
 glpi/glpi para la cuenta de administrador
